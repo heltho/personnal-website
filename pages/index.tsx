@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Hero from "../components/Hero";
 
 export default function Home() {
   return (
@@ -8,8 +9,8 @@ export default function Home() {
         <meta name="description" content="Thomas Hellin's Personnal website" />
       </Head>
 
-      <main>
-        <h1 className="text-6xl text-blue-700 font-bold">Hi there !</h1>
+      <main className="bg-tuna">
+        <Hero />
       </main>
     </>
   );
