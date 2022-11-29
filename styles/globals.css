@@ -1,3 +1,63 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* fira-code-regular - latin */
+@font-face {
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/fira-code/fira-code-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("/fonts/fira-code/fira-code-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/fonts/fira-code/fira-code-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("/fonts/fira-code/fira-code-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("/fonts/fira-code/fira-code-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("/fonts/fira-code/fira-code-regular.svg#FiraCode") format("svg"); /* Legacy iOS */
+}
+/* fira-code-500 - latin */
+@font-face {
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/fira-code/fira-code-medium.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("/fonts/fira-code/fira-code-medium.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/fonts/fira-code/fira-code-medium.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("/fonts/fira-code/fira-code-medium.woff")
+      format("woff"),
+    /* Modern Browsers */ url("/fonts/fira-code/fira-code-medium.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("/fonts/fira-code/fira-code-medium.svg#FiraCode") format("svg"); /* Legacy iOS */
+}
+/* fira-code-600 - latin */
+@font-face {
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/fonts/fira-code/fira-code-semibold.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("/fonts/fira-code/fira-code-semibold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/fonts/fira-code/fira-code-semibold.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("/fonts/fira-code/fira-code-semibold.woff")
+      format("woff"),
+    /* Modern Browsers */ url("/fonts/fira-code/fira-code-semibold.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("/fonts/fira-code/fira-code-semibold.svg#FiraCode") format("svg"); /* Legacy iOS */
+}
+
+@layer base {
+  html {
+    @apply font-body;
+  }
+}
