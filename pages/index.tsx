@@ -9,7 +9,7 @@ export default function Home() {
         <meta name="description" content="Thomas Hellin's Personnal website" />
       </Head>
 
-      <main className="bg-tuna">
+      <main className="min-h-screen bg-tuna">
         <Hero />
       </main>
     </>
