@@ -2,14 +2,14 @@ import Button from "./Button";
 
 export default function Hero() {
   return (
-    <header className="min-h-[80vh] w-full bg-tuna text-white flex items-center justify-center px-4 relative hero-bg">
-      <div className="relative z-10 flex items-center justify-between w-full max-w-5xl gap-6">
-        <div className="max-w-[60%]">
-          <h1 className="text-[3.375rem] font-semibold mb-4">
+    <header className="md:min-h-[50vh] lg:min-h-[70vh] w-full bg-tuna text-white flex items-center justify-center px-4 relative py-16 md:py-0">
+      <div className="relative z-10 flex flex-col w-full max-w-5xl gap-6 md:flex-row md:items-center md:justify-between">
+        <div className="md:max-w-[60%] order-2 md:order-1">
+          <h1 className="md:text-[3.375rem] text-4xl font-semibold mb-4 text-center leading-normal md:text-left">
             Hi there !<br />I am{" "}
-            <span className="text-scooter">Thomas Hellin</span>
+            <span className="block text-scooter md:inline">Thomas Hellin</span>
           </h1>
-          <span className="text-[1.75rem] font-medium block mb-8 text-white-50">
+          <span className="text-xl md:text-[1.75rem] font-medium block mb-8 text-white-50 text-center md:text-left">
             Full-stack Developer
           </span>
           <Button type="link" link="#">
@@ -17,7 +17,7 @@ export default function Hero() {
           </Button>
         </div>
 
-        <figure className="max-w-[30%] w-full">
+        <figure className="sm:max-w-[30%] max-w-[50%] mx-auto w-full order-1 md:order-2">
           <svg
             className="object-cover"
             viewBox="0 0 334 320"
@@ -25,7 +25,7 @@ export default function Hero() {
             xmlns="http://www.w3.org/2000/svg"
           >
             <circle cx="167" cy="160" r="160" fill="#32C4D8" />
-            <g clip-path="url(#clip0_143_156)">
+            <g clipPath="url(#clip0_143_156)">
               <path
                 d="M194.555 80.8381C200.814 80.8381 205.889 75.7619 205.889 69.5C205.889 63.2382 200.814 58.162 194.555 58.162C188.295 58.162 183.22 63.2382 183.22 69.5C183.22 75.7619 188.295 80.8381 194.555 80.8381Z"
                 fill="#F2F2F2"
